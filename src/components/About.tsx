@@ -13,21 +13,22 @@ export function About() {
               Who I Am
             </h3>
             <p className="text-gray-600 mb-4">
-              I'm a passionate Full Stack Developer with over 5 years of
-              experience creating web applications and digital experiences. I
-              specialize in JavaScript technologies across the stack and have a
-              strong foundation in modern frameworks and libraries.
+              I'm Amit Prasad, a passionate DevOps Engineer with over 5 years
+              of experience in designing, implementing, and managing scalable
+              infrastructure and CI/CD pipelines. My expertise lies in cloud
+              platforms like AWS and Azure, containerization with Docker and
+              Kubernetes, and automation using Terraform and Ansible.
             </p>
             <p className="text-gray-600 mb-4">
-              My approach combines technical expertise with creative
-              problem-solving to build scalable, user-friendly applications. I'm
-              dedicated to writing clean, efficient code and continuously
-              expanding my skill set in this ever-evolving field.
+              I thrive in collaborative environments and love working closely
+              with development teams to streamline deployments and improve
+              system reliability. My goal is to leverage technology to solve
+              complex problems and drive business success.
             </p>
             <p className="text-gray-600">
-              When I'm not coding, you can find me hiking local trails,
-              experimenting with new cooking recipes, or contributing to open
-              source projects.
+              When I'm not working, I enjoy contributing to open-source
+              projects, exploring new tech trends, and sharing knowledge with
+              the community through blogging and speaking at tech meetups.
             </p>
           </div>
           <div className="md:w-1/2">
@@ -46,7 +47,7 @@ export function About() {
                 <MapPinIcon size={20} className="text-orange-500 mr-3" />
                 <div>
                   <p className="text-sm text-gray-500">Location</p>
-                  <p className="text-gray-700">San Francisco, CA</p>
+                  <p className="text-gray-700">Hyderabad, India</p>
                 </div>
               </div>
               <div className="flex items-center">
@@ -54,7 +55,7 @@ export function About() {
                 <div>
                   <p className="text-sm text-gray-500">Education</p>
                   <p className="text-gray-700">
-                    B.S. Computer Science, Stanford University
+                    M.Tech in Computer systems and security
                   </p>
                 </div>
               </div>

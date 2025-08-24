@@ -1,23 +1,27 @@
 import React from 'react';
 import { CheckCircleIcon } from 'lucide-react';
 export function Skills() {
-  const frontendSkills = ['React.js', 'Next.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5/CSS3', 'Tailwind CSS', 'Redux', 'Responsive Design'];
-  const backendSkills = ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'RESTful APIs', 'GraphQL', 'Firebase', 'AWS'];
-  const toolsSkills = ['Git/GitHub', 'Docker', 'Jest/Testing Library', 'CI/CD', 'Webpack', 'Figma', 'Agile/Scrum', 'Performance Optimization'];
+  const operatingsystem = ['Linux(RHEL)', 'Windows', 'VMware', 'Citrix', 'Hyper-V'];
+  const CICD = ['Git', 'Maven', 'GitHub Actions', 'Jenkins'];
+  const toolsSkills = [ 'Docker', 'Kubernetes'];
+  const automationSkills = ['Terraform', 'Ansible'];
+  const cloudSkills = ['AWS', 'Azure'];
+  const programmingSkills = ['C', 'C++', 'Python', 'Bash Scripting'];
+
   const technicalProficiency = [{
-    skill: 'JavaScript/TypeScript',
+    skill: 'Linux',
     percentage: 90
   }, {
-    skill: 'React Ecosystem',
-    percentage: 85
+    skill: 'Kubernetes',
+    percentage: 70
   }, {
-    skill: 'Node.js & Express',
-    percentage: 80
+    skill: 'Cloud (AWS/Azure)',
+    percentage: 70
   }, {
-    skill: 'Databases',
+    skill: 'Python',
     percentage: 75
   }, {
-    skill: 'UI/UX Design',
+    skill: 'CI/CD',
     percentage: 70
   }];
   return <section id="skills" className="py-20 px-4 bg-gradient-to-b from-amber-50 to-orange-50">
@@ -27,9 +31,12 @@ export function Skills() {
         </h2>
         <div className="w-20 h-1 bg-orange-500 mx-auto mb-12"></div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <SkillCategory title="Frontend Development" skills={frontendSkills} />
-          <SkillCategory title="Backend Development" skills={backendSkills} />
-          <SkillCategory title="Tools & Methods" skills={toolsSkills} />
+          <SkillCategory title="Operating Systems & Virtualization" skills={operatingsystem} />
+          <SkillCategory title="Source Control & Build Automation" skills={CICD} />
+          <SkillCategory title="Containerization & Orchestration" skills={toolsSkills} />
+          <SkillCategory title="Cloud Platforms" skills={cloudSkills} />
+          <SkillCategory title="Programming & Scripting" skills={programmingSkills} />
+          <SkillCategory title="Automation & IaC" skills={automationSkills} />
         </div>
         <div className="mt-20">
           <h3 className="text-xl font-semibold text-center mb-12 text-gray-700">

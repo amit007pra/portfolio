@@ -39,18 +39,18 @@ export function Hero() {
             <h1 className="relative text-4xl md:text-5xl font-bold text-gray-800 mb-4">
               Hi, I'm{' '}
               <span className="text-orange-500 relative">
-                John Doe
+                Amit Prasad
                 <span className="absolute bottom-0 left-0 w-full h-2 bg-orange-200/50 -z-10"></span>
               </span>
             </h1>
           </div>
           <h2 className="text-2xl md:text-3xl text-gray-600 mb-6">
-            Full Stack Developer
+            DevOps Engineer & Tech enthusiast
           </h2>
           <p className="text-lg text-gray-600 mb-8 max-w-lg">
-            I build exceptional and accessible digital experiences for the web.
-            Specializing in creating applications that are both beautiful and
-            functional.
+            Passionate about building scalable systems and automating workflows. 
+            I love to explore new technologies and share my knowledge with the community.
+            Let's connect and create something amazing together!
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <a href="#contact" className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md transition-all duration-300 font-medium transform hover:-translate-y-1 hover:shadow-lg">
@@ -61,10 +61,10 @@ export function Hero() {
             </a>
           </div>
           <div className="flex space-x-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-orange-500 transition-colors transform hover:scale-110">
+            <a href="https://github.com/amit007pra" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-orange-500 transition-colors transform hover:scale-110">
               <GithubIcon size={24} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-orange-500 transition-colors transform hover:scale-110">
+            <a href="https://www.linkedin.com/in/amit-prasad12/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-orange-500 transition-colors transform hover:scale-110">
               <LinkedinIcon size={24} />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-orange-500 transition-colors transform hover:scale-110">
@@ -77,7 +77,7 @@ export function Hero() {
             {/* Avatar background effects */}
             <div className="absolute -inset-4 bg-gradient-to-r from-orange-200 to-amber-200 rounded-lg blur-xl opacity-30 animate-pulse"></div>
             <div className="relative overflow-hidden shadow-xl">
-              <img src="/ChatGPT_Image_Aug_22%2C_2025%2C_11_07_03_PM.png" alt="John Doe" className="w-64 h-auto md:w-80 object-cover" />
+              <img src="/AI-avatar.png" alt="John Doe" className="w-64 h-auto md:w-80 object-cover" />
             </div>
           </div>
         </div>

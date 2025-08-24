@@ -10,23 +10,23 @@ export function Footer() {
             <p className="text-orange-200 mt-2">Full Stack Developer</p>
           </div>
           <div className="flex space-x-4">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-orange-200 hover:text-white transition-colors" aria-label="GitHub">
+            <a href="https://github.com/amit007pra" target="_blank" rel="noopener noreferrer" className="text-orange-200 hover:text-white transition-colors" aria-label="GitHub">
               <GithubIcon size={24} />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-orange-200 hover:text-white transition-colors" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/amit-prasad12/" target="_blank" rel="noopener noreferrer" className="text-orange-200 hover:text-white transition-colors" aria-label="LinkedIn">
               <LinkedinIcon size={24} />
             </a>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-orange-200 hover:text-white transition-colors" aria-label="Twitter">
               <TwitterIcon size={24} />
             </a>
-            <a href="mailto:john.doe@example.com" className="text-orange-200 hover:text-white transition-colors" aria-label="Email">
+            <a href="mailto:amitprasad@gmail.com" className="text-orange-200 hover:text-white transition-colors" aria-label="Email">
               <MailIcon size={24} />
             </a>
           </div>
         </div>
         <div className="border-t border-orange-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-orange-200 text-sm mb-4 md:mb-0">
-            © {currentYear} John Doe. All rights reserved.
+            © {currentYear} Amit Prasad. All rights reserved.
           </p>
           <nav>
             <ul className="flex flex-wrap justify-center space-x-6">

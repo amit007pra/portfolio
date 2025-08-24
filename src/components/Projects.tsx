@@ -4,57 +4,12 @@ export function Projects() {
   const [activeFilter, setActiveFilter] = useState('all');
   const projects = [{
     id: 1,
-    title: 'E-Commerce Platform',
-    description: 'A full-featured online store with cart, payment processing, and admin dashboard.',
-    image: 'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    category: 'fullstack',
-    technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API'],
+    title: 'AI Job Agent',
+    description: 'An AI-powered tool that automates your job application process. It integrates with Gmail to send interview or job-related emails, respond smartly using AI, send personalized job applications (with resume and cover letter), and follow up automatically — all through an easy-to-use interface.',
+    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fchat-bot-white-background&psig=AOvVaw07BjbhVMDlROwwH7W-lBG7&ust=1756136960155000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJDLmI_mo48DFQAAAAAdAAAAABAE',
+    category: 'AI',
+    technologies: ['ChatGPT', 'Python', 'Suprabase', 'Gmail API'],
     liveUrl: '#',
-    githubUrl: '#'
-  }, {
-    id: 2,
-    title: 'Task Management App',
-    description: 'A Kanban-style project management tool with drag-and-drop functionality.',
-    image: 'https://images.unsplash.com/photo-1611224885990-ab7363d7f7a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    category: 'frontend',
-    technologies: ['React', 'TypeScript', 'Redux', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#'
-  }, {
-    id: 3,
-    title: 'API Gateway Service',
-    description: 'A microservice that handles authentication and routes requests to appropriate services.',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    category: 'backend',
-    technologies: ['Node.js', 'Express', 'JWT', 'Docker'],
-    liveUrl: '',
-    githubUrl: '#'
-  }, {
-    id: 4,
-    title: 'Portfolio Website',
-    description: 'A responsive portfolio website built with modern web technologies.',
-    image: 'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    category: 'frontend',
-    technologies: ['React', 'Next.js', 'Tailwind CSS'],
-    liveUrl: '#',
-    githubUrl: '#'
-  }, {
-    id: 5,
-    title: 'Real-time Chat Application',
-    description: 'A messaging platform with real-time updates and group chat functionality.',
-    image: 'https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    category: 'fullstack',
-    technologies: ['React', 'Socket.io', 'Express', 'MongoDB'],
-    liveUrl: '#',
-    githubUrl: '#'
-  }, {
-    id: 6,
-    title: 'Weather Data API',
-    description: 'A RESTful API that aggregates weather data from multiple sources.',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    category: 'backend',
-    technologies: ['Node.js', 'Express', 'Redis', 'External APIs'],
-    liveUrl: '',
     githubUrl: '#'
   }];
   const filteredProjects = activeFilter === 'all' ? projects : projects.filter(project => project.category === activeFilter);

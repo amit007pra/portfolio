@@ -3,25 +3,25 @@ import { AwardIcon, CalendarIcon, ExternalLinkIcon } from 'lucide-react';
 export function Certifications() {
   const certifications = [{
     id: 1,
-    title: 'AWS Certified Solutions Architect',
-    issuer: 'Amazon Web Services',
-    date: 'Dec 2022',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    url: '#'
+    title: 'AWS Certified Cloud Practitioner',
+    issuer: 'Amazon Web Services Training and Certification',
+    date: 'May 2025',
+    image: 'hhttps://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png',
+    url: 'https://www.credly.com/badges/71fa9d60-6084-4c64-85e6-db370283cf8c/public_url'
   }, {
     id: 2,
-    title: 'Professional Full Stack Engineer',
-    issuer: 'Meta',
-    date: 'Aug 2022',
-    image: 'https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    url: '#'
+    title: 'Microsoft Certified: Azure Fundamentals',
+    issuer: 'Microsoft',
+    date: 'Feb 2025',
+    image: 'https://images.credly.com/size/160x160/images/ce32b151-2075-4463-8746-c2fc0e19be9e/converted20250612-28-pgnd8h.png',
+    url: 'https://learn.microsoft.com/en-us/users/amitprasad-9321/credentials/2d704cbe522cc682?ref=https%3A%2F%2Fwww.credly.com%2F'
   }, {
     id: 3,
-    title: 'Google Cloud Professional Developer',
-    issuer: 'Google Cloud',
-    date: 'Mar 2022',
-    image: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    url: '#'
+    title: 'GitHub Foundations',
+    issuer: 'GitHub',
+    date: 'May 2025',
+    image: 'https://images.credly.com/size/160x160/images/024d0122-724d-4c5a-bd83-cfe3c4b7a073/image.png',
+    url: 'https://www.credly.com/earner/earned/badge/fcb3515d-6198-4276-9b70-d3c0b13da531'
   }, {
     id: 4,
     title: 'React Developer Certification',
