@@ -36,7 +36,7 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy portfolio-app \
-            --image=${{ secrets.DOCKERHUB_USERNAME }}/portfolio-app:${{ github.sha }} \
+            --image=docker.io/${{ secrets.DOCKERHUB_USERNAME }}/portfolio-app:${{ github.sha }} \
             --region=${{ env.REGION }} \
             --platform=managed \
             --allow-unauthenticated \
