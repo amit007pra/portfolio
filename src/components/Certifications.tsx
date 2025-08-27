@@ -24,11 +24,25 @@ export function Certifications() {
     url: 'https://www.credly.com/earner/earned/badge/fcb3515d-6198-4276-9b70-d3c0b13da531'
   }, {
     id: 4,
-    title: 'React Developer Certification',
-    issuer: 'freeCodeCamp',
-    date: 'Nov 2021',
-    image: 'https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-    url: '#'
+    title: 'Prompt Design in Vertex AI Skill Badge',
+    issuer: 'Google Cloud',
+    date: 'Jul 2025',
+    image: 'https://images.credly.com/size/160x160/images/cef82b2e-970a-4318-8e59-c3e26b7f5c19/image.png',
+    url: 'https://www.credly.com/badges/be2c5189-3e81-482f-a075-fdbb10685d4a/public_url'
+  },{
+    id: 5,
+    title: 'Build Real World AI Applications with Gemini and Imagen Skill Badge',
+    issuer: 'Google Cloud',
+    date: 'Jul 2025',
+    image: 'https://images.credly.com/size/160x160/images/b7898c75-72ce-4304-b227-0aa7563aaca9/blob',
+    url: 'https://www.credly.com/badges/68d1c45f-047b-4631-a87f-17f0934baeb4/public_url'
+  }, {
+    id: 6,
+    title: 'Develop GenAI Apps with Gemini and Streamlit Skill Badge',
+    issuer: 'Google Cloud',
+    date: 'Aug 2025',
+    image: 'https://images.credly.com/images/1dbef1bd-cdb0-40e1-bff4-8200448c3161/blob',
+    url: 'https://www.credly.com/badges/68784733-5c59-4988-aae7-eb0fccb8fb1d/public_url'
   }];
   return <section id="certifications" className="py-20 px-4 bg-orange-50">
       <div className="container mx-auto">
