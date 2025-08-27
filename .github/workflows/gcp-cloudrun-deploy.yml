@@ -36,10 +36,11 @@ jobs:
       - name: Deploy to Cloud Run
         run: |
           gcloud run deploy portfolio-app \
-            --image ${{ secrets.DOCKERHUB_USERNAME }}/portfolio-app:${{ github.sha }} \
-            --region $REGION \
-            --platform managed \
-            --allow-unauthenticated
+            --image=${{ secrets.DOCKERHUB_USERNAME }}/portfolio-app:${{ github.sha }} \
+            --region=${{ env.REGION }} \
+            --platform=managed \
+            --allow-unauthenticated \
+            --project=${{ env.PROJECT_ID }}
         env:
           PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
           REGION: ${{ secrets.GCP_REGION }}
