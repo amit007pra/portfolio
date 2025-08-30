@@ -60,7 +60,7 @@ export function About() {
                 </div>
               </div>
               <div className="mt-8">
-                <a href="#" className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md transition-colors font-medium">
+                <a href="/AmitPrasad_CV.pdf" className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-md transition-colors font-medium">
                   Download Resume
                 </a>
               </div>

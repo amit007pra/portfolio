@@ -1,5 +1,5 @@
 # Use official Node.js LTS image
-FROM node:18-alpine3.19
+FROM node:18-alpine3.20
 
 # Update system packages to fix vulnerabilities
 RUN apk update && apk upgrade

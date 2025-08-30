@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowDownIcon, GithubIcon, LinkedinIcon, TwitterIcon, CodeIcon, ServerIcon, DatabaseIcon } from 'lucide-react';
+import { VisitorCounter } from './VisitorCounter';
 export function Hero() {
   return <section className="relative bg-gradient-to-r from-amber-50 to-orange-50 py-20 px-4 overflow-hidden">
       {/* Decorative elements */}
@@ -82,11 +83,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-      <div className="relative flex justify-center mt-16">
-        <a href="#about" className="flex items-center text-orange-500 hover:text-orange-700 transition-colors animate-bounce">
-          <span className="mr-2">Scroll Down</span>
-          <ArrowDownIcon size={20} />
-        </a>
-      </div>
+      <VisitorCounter />
     </section>;
 }

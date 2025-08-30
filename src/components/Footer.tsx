@@ -6,8 +6,8 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
-            <h2 className="text-2xl font-bold">John Doe</h2>
-            <p className="text-orange-200 mt-2">Full Stack Developer</p>
+            <h2 className="text-2xl font-bold">Amit Prasad</h2>
+            <p className="text-orange-200 mt-2">DevOps</p>
           </div>
           <div className="flex space-x-4">
             <a href="https://github.com/amit007pra" target="_blank" rel="noopener noreferrer" className="text-orange-200 hover:text-white transition-colors" aria-label="GitHub">

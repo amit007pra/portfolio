@@ -6,7 +6,7 @@ export function Projects() {
     id: 1,
     title: 'AI Job Agent',
     description: 'An AI-powered tool that automates your job application process. It integrates with Gmail to send interview or job-related emails, respond smartly using AI, send personalized job applications (with resume and cover letter), and follow up automatically — all through an easy-to-use interface.',
-    image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fchat-bot-white-background&psig=AOvVaw07BjbhVMDlROwwH7W-lBG7&ust=1756136960155000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJDLmI_mo48DFQAAAAAdAAAAABAE',
+    image: './ai-job-agent.png',
     category: 'AI',
     technologies: ['ChatGPT', 'Python', 'Suprabase', 'Gmail API'],
     liveUrl: '#',
@@ -24,14 +24,11 @@ export function Projects() {
             <FilterButton active={activeFilter === 'all'} onClick={() => setActiveFilter('all')}>
               All
             </FilterButton>
-            <FilterButton active={activeFilter === 'frontend'} onClick={() => setActiveFilter('frontend')}>
-              Frontend
+            <FilterButton active={activeFilter === 'devops'} onClick={() => setActiveFilter('frontend')}>
+              DevOps
             </FilterButton>
-            <FilterButton active={activeFilter === 'backend'} onClick={() => setActiveFilter('backend')}>
-              Backend
-            </FilterButton>
-            <FilterButton active={activeFilter === 'fullstack'} onClick={() => setActiveFilter('fullstack')}>
-              Full Stack
+            <FilterButton active={activeFilter === 'AI'} onClick={() => setActiveFilter('backend')}>
+              AI
             </FilterButton>
           </div>
         </div>

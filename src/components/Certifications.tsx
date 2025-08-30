@@ -6,7 +6,7 @@ export function Certifications() {
     title: 'AWS Certified Cloud Practitioner',
     issuer: 'Amazon Web Services Training and Certification',
     date: 'May 2025',
-    image: 'hhttps://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png',
+    image: 'https://images.credly.com/size/160x160/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png',
     url: 'https://www.credly.com/badges/71fa9d60-6084-4c64-85e6-db370283cf8c/public_url'
   }, {
     id: 2,
@@ -52,8 +52,8 @@ export function Certifications() {
         <div className="w-20 h-1 bg-orange-500 mx-auto mb-12"></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {certifications.map(cert => <div key={cert.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-              <div className="h-40 overflow-hidden bg-orange-50 flex items-center justify-center">
-                <img src={cert.image} alt={cert.title} className="w-16 h-16 object-contain" />
+              <div className="h-40 bg-orange-50 flex items-center justify-center">
+                <img src={cert.image} alt={cert.title} className="max-h-full object-contain"/>
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-semibold mb-2 text-gray-800">
